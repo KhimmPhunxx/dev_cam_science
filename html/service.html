@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CAM-Science | Service</title>
-    .
+    <link rel="stylesheet" href="./../testLoading.css">
     <link rel="stylesheet" href="/Styles/style.css">
     <link rel="stylesheet" href="styles/FontFamily.css">
+    <link rel="shortcut icon" href="./../icons/logoIcon.png" type="image/x-icon">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.css" rel="stylesheet" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,16 +15,16 @@
     <link rel="shortcut icon" href="./icons/imageicon.jpg" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-<body>
+<body style="font-family: 'Nunito', sans-serif;">
     <!-- Start Header Website -->
-    <header class="w-full sticky top-0">    
-        <nav class="bg-gray-100 border drop-shadow max-w-full mx-auto rounded-b-xl mt-2 z-20 top-10 left-0 border-b border-gray-200">
+    <header class="sticky top-0 z-30">    
+        <nav class="bg-gray-100 border drop-shadow max-w-full mx-auto rounded-b-xl z-20 top-10 left-0 border-b border-gray-200">
             <div class="max-w-screen-xl  flex flex-wrap items-center justify-between mx-auto p-2">
             <a href="" class="flex items-center">
                 <img src="./../assets/logo_cam_sciece.jpg" class="rounded-full border h-16 mr-5" alt="Flowbite Logo">
             </a>
             <div class="flex md:order-2">
-                <button type="button" class="text-white bg-green-500 hover:bg-green-600 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-xl px-8 py-3 text-center mr-3 md:mr-3">Faq</button>
+                <button type="button" class="text-white bg-green-500 hover:bg-green-600 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-xl px-8 py-3 text-center mr-3 md:mr-3">Questions</button>
                 <button data-collapse-toggle="navbar-sticky" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-sticky" aria-expanded="false">
                 <span class="sr-only">Open main menu</span>
                 <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
@@ -32,41 +33,39 @@
             </button>
             </div>
             <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
-            <ul class="flex font-nunito font-bold text-lg flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg md:flex-row md:space-x-8 md:mt-0 md:border-0">
+            <ul class="flex font-nunito font-bold text-sm flex-col p-4 md:p-2 mt-4 border border-gray-100 rounded-lg md:flex-row md:space-x-8 md:mt-0 md:border-0">
                 <li>
-                <a href="#" class="block py-2 pl-3 pr-4 text-white bg-blue-700 rounded md:bg-transparent md:text-green-500 md:p-0" aria-current="page">Home</a>
+                <a href="./../index.html" class="block py-2 pl-3 pr-4 text-white bg-blue-700 rounded md:bg-transparent md:text-gray-900 hover:text-green-500 md:p-0" aria-current="page">Home</a>
                 </li>
                 <li>
-                <a href="#" class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-green-500 md:p-0">About</a>
+                <a href="#" class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-green-500 md:p-0">About Us</a>
                 </li>
                 <li>
-                <a href="#" class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-green-500 md:p-0">Services</a>
+                <a href="/html/service.html" class="block py-2 pl-3 pr-4 text-green-500 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-green-500 md:p-0">Product & Services</a>
                 </li>
                 <li>
-                    <button id="dropdownNavbarLink" data-dropdown-toggle="dropdownNavbar" class="flex items-center justify-between w-full py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-green-500 md:p-0 md:w-auto ">Case Study <svg class="w-2.5 h-2.5 ml-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                <a href="#" class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-green-500 md:p-0">Research & Development</a>
+                </li>
+                <li>
+                    <button id="dropdownNavbarLinkk" data-dropdown-toggle="dropdownNavbar" class="flex items-center justify-between w-full py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-green-500 md:p-0 md:w-auto ">Events & News<svg class="w-2.5 h-2.5 ml-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
                     <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4"/>
                     </svg></button>
                     <!-- Dropdown menu -->
                     <div id="dropdownNavbar" class="z-10 hidden font-normal bg-white divide-y divide-gray-100 rounded-lg shadow w-44 ">
                         <ul class="py-2 text-sm text-gray-700" aria-labelledby="dropdownLargeButton">
                           <li>
-                            <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Dashboard</a>
+                            <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Envets</a>
                           </li>
                           <li>
-                            <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Settings</a>
-                          </li>
-                          <li>
-                            <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Earnings</a>
+                            <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">News</a>
                           </li>
                         </ul>
-                        <div class="py-1">
-                          <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-400 dark:hover:text-white">Sign out</a>
-                        </div>
+                       
                     </div>
                 </li>
                 <li>
-                <a href="#" class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-green-500 md:p-0">Blog</a>
-                </li>
+                <a href="#" class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-green-500 md:p-0">Opportunities</a>
+                 </li>
                 <li>
                 <a href="#" class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-green-500 md:p-0">Contact</a>
                 </li>
@@ -77,63 +76,89 @@
     </header>
     
     <main>
-        <section class="max-w text-center text-white" style="background-image: url(./../assets/service/service_banner.png); height:300px;">
-            <div class="w-full h-full bg-gray-600 bg-opacity-50">
-                <h1 class="" Style="font-size:70px">Service <br> Our Team</h1​>
-                <h3>Home|Service</h3>
+        <!-- banner -->
+        <section class="max-w text-center mt-50 text-white" style="background-image: url(./../assets/service/service_banner.png); height:300px;">
+            <div class="w-full h-full  bg-gray-600 bg-opacity-50">
+                <div class="pt-20">
+                    <h1  class="text-4xl ">Service <br> Our Team</h1 >
+                    <h3 class="text-xl">Home|Service</h3>
+
+                </div>
             </div>
             
         </section>
-
+        <!-- Service -->
+        <div class="max-w-7xl mx-auto">
+            <h1 class="text-4xl mt-20 font-bold">Our Service</h1>
+            <div class="border-2 mt-5 w-full border-green-700"></div>
+        </div>
+        <section id="service_banner max-w-5xl mx-auto">   
+            <section class="bg-white">
+                <div class="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6">
+                    <div class="font-light text-gray-500 sm:text-lg " style="font-family: 'Battambang', cursive;">
+                        <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900">ប្រព័ន្ទស្រោចស្របឆ្លាតវៃ</h2>
+                        <p class="mb-4">ប្រព័ន្ទស្រោចស្របឆ្លាតវៃ(CSI) គីជាប្រព័ន្ទដែលប្រើប្រាស់បច្ចេកវិទ្យាឆ្លាតវៃ អនុញ្ញាតឲ្យកសិករងាយស្រួលតាមដានសំណើមដី កម្រិតសីតុណ្ហភាពកំណត់កាលវិភាគប្រព័ន្ធស្រោចស្រពដំណាំ នឹងគ្រប់គ្រងប្រព័ន្ទស្របរបស់ពួកគាត់ពីចម្ងាយតាមរយះទូរស័ព្ទដៃ៕</p>
+                        <p>We are strategists, designers and developers. Innovators and problem solvers. Small enough to be simple and quick.</p>
+                    </div>
+                    <div class="grid grid-cols-2 gap-4 mt-8">
+                        <img class="w-full rounded-lg" src="./../assets/">
+                        <img class="mt-4 w-full lg:mt-10 rounded-lg" src="./../assets/service/2.png">
+                    </div>
+                </div>
+            </section>
+        </section>
+        <!-- Product  -->
+        <div class="max-w-7xl mx-auto">
+            <h1 class="text-4xl mt-20 font-bold">Our Product</h1>
+            <div class="border-2 mt-5 w-full border-green-700"></div>
+        </div>
         <section class="max-w-4xl gap-6 mx-auto grid grid-cols-3" class="container" >
-            
-            <div class="max-w-sm bg-white border border-gray-200 p-2 rounded-lg shadow mt-10"  style="float:left;">
-                <a href="#">
-                    <img class="rounded-t-lg mx-auto " src="./../assets/service/product.png" alt="Device image" />
-                </a>
-                <div class="p-5">
-                    <a href="#">
-                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white text-center">WEI4</h5>
-                    </a>
-                    <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Descripttion</p>
-                </div>
-            </div>
-
-            <div class="max-w-sm bg-white border border-gray-200 p-2 rounded-lg shadow mt-10"  style="float:left;">
-                <a href="#">
-                    <img class="rounded-t-lg mx-auto " src="./../assets/service/product.png" alt="Device image" />
-                </a>
-                <div class="p-5">
-                    <a href="#">
-                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white text-center">WEI4</h5>
-                    </a>
-                    <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Descripttion</p>
-                </div>
-            </div>
-
-            <div class="max-w-sm bg-white border border-gray-200 p-2 rounded-lg shadow mt-10"  style="float:left;">
-                <a href="#">
-                    <img class="rounded-t-lg mx-auto " src="./../assets/service/product.png" alt="Device image" />
-                </a>
-                <div class="p-5">
-                    <a href="#">
-                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white text-center">WEI4</h5>
-                    </a>
-                    <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Descripttion</p>
-                </div>
-            </div>
-
-        </section>
-      
-        <section>
            
+            
+            <div class="max-w-sm bg-white border border-gray-200 p-2 rounded-lg shadow mt-10 round-10xl mb-10"  style="border-radius:25px 25px 0 0;">
+                <a href="#">
+                    <img class="rounded-t-lg mx-auto " src="./../assets/service/product.png" alt="Device image" />
+                </a>
+                <div class="p-5">
+                    <a href="#">
+                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white text-center">WEI4</h5>
+                    </a>
+                    <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Descripttion</p>
+                </div>
+            </div>
+
+            <div class="max-w-sm bg-white border border-gray-200 p-2 rounded-lg shadow mt-10 round-2xl mb-10"  style="border-radius:25px 25px 0 0;">
+                <a href="#">
+                    <img class="rounded-t-lg mx-auto " src="./../assets/service/product.png" alt="Device image" />
+                </a>
+                <div class="p-5">
+                    <a href="#">
+                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white text-center">WEI4</h5>
+                    </a>
+                    <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Descripttion</p>
+                </div>
+            </div>
+            <div class="max-w-sm bg-white border border-gray-200 p-2 rounded-lg shadow mt-10 round-2xl mb-10" style="border-radius:25px 25px 0 0;">
+                <a href="#">
+                    <img class="rounded-t-lg mx-auto " src="./../assets/service/product.png" alt="Device image" />
+                </a>
+                <div class="p-5">
+                    <a href="#">
+                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white text-center">WEI4</h5>
+                    </a>
+                    <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Descripttion</p>
+                </div>
+            </div>
+
         </section>
     </main>
 
     <footer>
 
     </footer>
+    <div class="loader"></div>
 
+    <script src="./../script.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.js"></script>
     <script src="https://cdn.tailwindcss.com"></script>
 </body>
