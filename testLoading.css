@@ -22,8 +22,8 @@
     background-repeat: no-repeat;
     background-size: cover;
     height: 110px;
-    border: 15px  solid rgb(44, 46, 44);
-    border-top-color: rgb(41, 211, 15);
+    border: 15px  solid rgb(125, 170, 232);
+    border-top-color: rgb(6, 6, 97);
     border-radius: 50%;
     animation: loading 0.75s ease infinite;
 
